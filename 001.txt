@@ -1,0 +1,3 @@
+we start at one, importing a popular golang open source package called gin, yes gin like the drink.
+
+at two we setup the very first route of our website, called slash, yes like slash

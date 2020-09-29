@@ -1,0 +1,1 @@
+we add one more route at slash about us, and now we have a two page website.
