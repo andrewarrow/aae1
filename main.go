@@ -8,8 +8,7 @@ import (
 )
 
 func WelcomeIndex(c *gin.Context) {
-	c.Data(http.StatusOK, "text/html;",
-		[]byte("<html><body><h1 style='font-size:72px;color:red;'>Hello</h1></body></html>")) // <-- real HTML
+	c.HTML(http.StatusOK, "index.tmpl", gin.H{}) // 1. load html from this file
 }
 
 func AboutUs(c *gin.Context) {
@@ -25,6 +24,7 @@ func main() {
 	router.GET("/", WelcomeIndex)
 	router.GET("/about-us", AboutUs)
 	router.NoRoute(Custom404)
+	router.LoadHTMLGlob("templates/*.tmpl") // 2. load all the files in this directory
 	port := 3000
 	router.Run(fmt.Sprintf(":%d", port))
 }
