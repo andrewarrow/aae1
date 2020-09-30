@@ -1,0 +1,3 @@
+but lets display more than just strings, websites want HTML.
+
+We can add HTML right there in our code but...
