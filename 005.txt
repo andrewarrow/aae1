@@ -1,3 +1,5 @@
+it's starting to get messy.
+
 at one, we change our hard coded html to instead use HTML from file index.tmpl
 
 at two, we tell gin to load all the .tmpl files in a directory templates
