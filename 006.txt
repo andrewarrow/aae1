@@ -1,0 +1,7 @@
+Lets add an image.
+
+Notice we get a broken image since logo.png is not found.
+
+We add as assets directory and place a sample logo in that folder and...
+
+No more broken image.
