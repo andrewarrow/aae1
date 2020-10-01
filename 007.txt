@@ -6,4 +6,6 @@ and download it, and unzip it, and find it's index.html file.
 
 Lets change that upper left corner word to Hello.
 
+Lets make that file replace our index.tmpl
 
+But, something is different when that same html is displayed from our code.
